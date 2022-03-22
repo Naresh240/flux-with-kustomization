@@ -6,10 +6,11 @@ metadata:
   labels:
     app: nginx
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: nginx
   ports:
   - protocol: TCP
     port: 80
     targetPort: 80
+    nodePort: 30001
