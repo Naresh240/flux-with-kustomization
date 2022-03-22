@@ -10,6 +10,6 @@ spec:
     kind: GithubRepository
     name: flux-system
   path: ./deploy
-  prue: true
+  prune: true
   wait: true
   timeout: 2m
