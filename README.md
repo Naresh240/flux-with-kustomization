@@ -11,7 +11,7 @@
 # Flux Bootstraping
     export GITHUB_USER="naresh240"
     export GITHUB_REPO="flux-with-kustomization"
-    export GITHUB_BRANCH="feature/naresh"
+    export GITHUB_BRANCH="main"
     export GITHUB_DIR="./clusters"
   
     flux bootstrap github \
