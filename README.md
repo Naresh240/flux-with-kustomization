@@ -1,5 +1,8 @@
 # flux-with-kustomization
 
+# Install Minikube Cluster
+    [minikube_setup](https://github.com/Naresh240/kubernetes/blob/main/minikube-setup/README.md)
+
 # Installing flux
     wget https://github.com/fluxcd/flux2/releases/download/v0.27.4/flux_0.27.4_linux_amd64.tar.gz 
     tar xvf flux_0.27.4_linux_amd64.tar.gz
