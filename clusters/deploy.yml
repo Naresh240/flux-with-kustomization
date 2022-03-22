@@ -7,7 +7,7 @@ metadata:
 spec:
   interval: 1m0s
   sourceRef:
-    kind: GithubRepository
+    kind: GitRepository
     name: flux-system
   path: ./deploy
   prune: true
