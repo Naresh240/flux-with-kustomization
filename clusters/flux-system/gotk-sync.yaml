@@ -8,7 +8,7 @@ metadata:
 spec:
   interval: 1m0s
   ref:
-    branch: main
+    branch: feature/naresh
   secretRef:
     name: flux-system
   url: ssh://git@github.com/naresh240/flux-with-kustomization
@@ -20,7 +20,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m0s
-  path: ./cluster
+  path: ./clusters
   prune: true
   sourceRef:
     kind: GitRepository
